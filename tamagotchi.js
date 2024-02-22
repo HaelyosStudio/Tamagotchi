@@ -1,6 +1,6 @@
 console.log('tamagotchi file is loaded');
 
-class Tamagotchi {
+export class Tamagotchi {
   name;
   creatureType;
 
@@ -51,9 +51,9 @@ class Tamagotchi {
 
 }
 
-const myTamagotchi = new Tamagotchi("Tyrion", "Dwarf");
+export const myTamagotchi = new Tamagotchi("Tyrion", "Dwarf");
 
-const myTamagotchi2 = new Tamagotchi("Vador", "Sith");
+export const myTamagotchi2 = new Tamagotchi("Vador", "Sith");
 
 console.log(myTamagotchi);
 
