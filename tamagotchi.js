@@ -26,12 +26,23 @@ class Tamagotchi {
     console.log('Current hunger : ' + this.foodValue);
   }
 
+  puke() {
+    this.foodValue--;
+    console.log(this.name + ' just puked !');
+    console.log('Current hunger : ' + this.foodValue + ' | MAMAMIAAAA');
+  }
+
   satieted() {
 
   }
 
   sleepy() {
 
+  }
+
+  yawn() {
+    this.fatigueValue--;
+    console.log(this.name + ' yawned !' + ' | Current fatigue : ' + this.fatigueValue);
   }
 
   rested() {
@@ -51,3 +62,7 @@ console.log(myTamagotchi2);
 console.log();
 
 console.log(myTamagotchi.hungry());
+
+console.log(myTamagotchi2.puke());
+
+console.log(myTamagotchi.yawn());
