@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.formDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 150px 0px 50px 0px;
+    gap: 25px;
+}
+
+.inputs {
+    text-align: center;
+}
+
+.submitButtonBox {
+    display: flex;
+    justify-content: center;
+}
+
+.submitButton {
+    width: 100px;
+    height: 25px;
+}
+
+.tamagotchiInfos {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 100px;
+}
+
+.gameButtons {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+    gap: 45px;
+}
+
+.actionButtons {
+    width: 100px;
+    height: 25px;
+}
+
+.tamagotchiValues {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px; 
+    gap: 50px;
+}
+
+.values:not(:last-of-type) {
+    border-right: 1px solid black;
+    padding-right: 50px;
+}
+
+.settingsButtons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.settingButton {
+    width: 155px;
+    height: 25px;
+}

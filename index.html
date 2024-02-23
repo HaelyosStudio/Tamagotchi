@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="utf-8">
     <title>tamagotchi OOP</title>
     <!-- DECOUPLED JS FILES -->
@@ -10,6 +11,32 @@
     <script type="module" src="player.js" ></script>
   </head>
   <body>
-
+    <div class="formDiv">
+      <h3 class="formText">Your Tamagotchi's name : </h3>
+      <input type="text" name="Tamagotchi name" id="nameInput" placeholder="Enter a name" class="inputs">
+      <h3 class="formText">Your Tamagotchi's type : </h3>
+      <input type="text" name="Tamagotchi type" id="typeInput" placeholder="Enter a type" class="inputs">
+    </div>
+    <div class="submitButtonBox">
+      <button class="submitButton" id="submitButton">Submit</button>
+    </div>
+    <div class="tamagotchiInfos">
+      <h4 id="nameHolder">Name : </h4>
+      <h4 id="typeHolder">Type : </h4>
+    </div>
+    <div class="gameButtons">
+      <button id="feedButton" class="actionButtons">Feed</button>
+      <button id="restButton" class="actionButtons">Rest</button>
+      <button id="medicateButton" class="actionButtons">Medicate</button>
+    </div>
+    <div class="tamagotchiValues">
+      <h3 id="hungerHolder" class="values">Hunger : 10</h3>
+      <h3 id="fatigueHolder" class="values">Fatigue : 10</h3>
+      <h3 id="healthHolder" class="values">Health : 10</h3>
+    </div>
+    <div class="settingsButtons">
+      <button id="startButton" class="settingButton">Start</button>
+      <button id="stopButton" class="settingButton">Stop</button>
+    </div>
   </body>
 </html>
